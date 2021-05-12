@@ -10,11 +10,9 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class MyUserDetailsService implements UserDetailsService{
-
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		// TODO Auto-generated method stub
-		return new User("navneetu","nitigna",new ArrayList<>());
+		return new User("himani","himani",new ArrayList<>());
 	}
-
 }
